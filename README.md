@@ -1,12 +1,12 @@
 ## Static Site Portfolio
 ### A landing page for my personal projects
 
-Credits:
+##Credits:
 
-  Design:
-  AJ
-  Forty by HTML5 UP
-  aj@lkn.io | @ajlkn
+  	Design:
+  		AJ
+  		Forty by HTML5 UP
+  		aj@lkn.io | @ajlkn
 
 	Demo Images:
 		Unsplash (unsplash.com)
