@@ -1,7 +1,7 @@
 ## Static Site Portfolio
 ### A landing page for my personal projects
 
-##Credits:
+## Credits:
 
   	Design:
   		AJ
