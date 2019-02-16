@@ -1,5 +1,6 @@
-## Static Site Portfolio
-### A landing page for my personal projects
+# Portfolio
+### A live portfolio site of some personal projects
+Visit [abdelgzali.github.io](https://abdelgzali.github.io)
 
 ## Credits:
 
