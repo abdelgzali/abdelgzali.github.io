@@ -1,6 +1,6 @@
 # Portfolio
 ### A live portfolio site of some personal projects
-Visit [abdelgzali.github.io](https://abdelgzali.github.io)
+Visit [el-ghazali.com](https://el-ghazali.com)
 
 ## Credits:
 
