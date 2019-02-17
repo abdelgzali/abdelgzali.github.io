@@ -3397,7 +3397,7 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3.25em;
+			font-size: 2.75em;
 		}
 
 		#banner > .inner {
@@ -3561,6 +3561,7 @@ input, select, textarea {
         left: 50%;
         top: 50%;
         transform: translate(-50%,-50%);
+        width: 80%;
       }
 
       #inner-banner {
