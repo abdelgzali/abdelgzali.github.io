@@ -3088,7 +3088,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #242943;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3950,3 +3950,37 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* Generic */
+
+#zero > .inner {
+  padding: 8em 2em;
+  margin: auto;
+}
+
+@media screen and (max-width: 736px) {
+  #zero > .inner {
+    padding: 4em 0.6em;
+    margin: auto;
+  }
+}
+
+#one > .inner {
+  color: #ecf0f1;
+}
+#one > .image.main {
+  margin: 0;
+}
+
+.about-h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.about-h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
