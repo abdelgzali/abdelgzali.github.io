@@ -1,12 +1,13 @@
-## Static Site Portfolio
-### A landing page for my personal projects
+# Portfolio
+### A live portfolio site of some personal projects
+Visit [abdelgzali.github.io](https://abdelgzali.github.io)
 
--Credits:
+## Credits:
 
-  Design:
-  AJ
-  Forty by HTML5 UP
-  aj@lkn.io | @ajlkn
+  	Design:
+  		AJ
+  		Forty by HTML5 UP
+  		aj@lkn.io | @ajlkn
 
 	Demo Images:
 		Unsplash (unsplash.com)

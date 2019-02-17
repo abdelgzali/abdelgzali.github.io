@@ -2766,7 +2766,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.75;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3504,6 +3504,10 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+    #demo-container {
+      display: none;
+    }
+
 		@media screen and (max-width: 1280px) {
 
 			#banner {
@@ -3542,7 +3546,28 @@ input, select, textarea {
 					max-height: none;
 				}
 
+        #inner-banner {
+          height:
+        }
 		}
+    @media screen and (min-width: 1280px) {
+      #demo-container {
+        display: inherit;
+      }
+
+      #banner-content {
+        position: absolute;
+        top: calc(75vh * 0.33);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+      #inner-banner {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+    }
 
 		@media screen and (max-width: 480px) {
 
