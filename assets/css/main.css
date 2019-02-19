@@ -3550,7 +3550,7 @@ input, select, textarea {
           height:
         }
 		}
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 736px) {
       #demo-container {
         display: inherit;
       }
