@@ -4097,6 +4097,7 @@ body.is-menu-visible #menu .inner {
   width: 100%;
   height: 100%;
   position: fixed;
+  z-index: -1;
 }
 /* #blurCanvasTop{
   left:0%;
