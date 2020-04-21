@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?dxlbxd');
+  src:  url('../fonts/icomoon.eot?dxlbxd#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?dxlbxd') format('truetype'),
+    url('../fonts/icomoon.woff?dxlbxd') format('woff'),
+    url('../fonts/icomoon.svg?dxlbxd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* icon styles */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  height: 2rem;
+  width: 2rem;
+  color: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a.icon {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
