@@ -465,14 +465,18 @@ section#tech .tech-grid {
   align-items: center;
 }
 
+.grid-block_category {
+  border-right: none !important;
+}
+
 .grid-block_tech {
   font-size: 0.9rem;
-  background-color: #c8d6e5;
   color: var(--bg-primary);
   border-right: none;
   margin: 1px 0;
   justify-content: flex-start;
   padding-left: 1rem;
+  border-left: none;
 }
 
 .grid-block_bar {
@@ -484,25 +488,58 @@ section#tech .tech-grid {
 
 .grid-block_bar span.experience-bar {
   height: 100%;
-  background-color: #c8d6e5;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
 }
 
+.grid-block1,
+.grid-block4,
+.grid-block5,
+.grid-block6,
+.grid-block7,
+.grid-block16 span,
+.grid-block17 span,
+.grid-block18 span,
+.grid-block19 span {
+  background-color: #1dd1a1;
+}
+
+.grid-block2,
+.grid-block8,
+.grid-block9,
+.grid-block10,
+.grid-block20 span,
+.grid-block21 span,
+.grid-block22 span {
+  background-color: #48dbfb;
+}
+
+.grid-block3,
+.grid-block11,
+.grid-block12,
+.grid-block13,
+.grid-block14,
+.grid-block15,
+.grid-block23 span,
+.grid-block24 span,
+.grid-block25 span,
+.grid-block26 span,
+.grid-block27 span {
+  background-color: #feca57;
+}
+
 .grid-block1 {
   grid-area: 1 / 1 / 5 / 2;
-  background-color: #1dd1a1;
-  border-top: 1px solid var(--bg-primary);
+  border: 1px solid var(--bg-primary);
   border-top-left-radius: 5px;
 }
 .grid-block2 {
   grid-area: 5 / 1 / 8 / 2;
-  background-color: #48dbfb;
+  border: 1px solid var(--bg-primary);
 }
 .grid-block3 {
   grid-area: 8 / 1 / 13 / 2;
-  background-color: #feca57;
-  border-bottom: 1px solid var(--bg-primary);
+  border: 1px solid var(--bg-primary);
   border-bottom-left-radius: 5px;
 }
 .grid-block4 {
