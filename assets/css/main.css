@@ -411,12 +411,35 @@ section#projects article#project-one:before {
 }
 
 section#projects article#project-two {
-  background-image: url(../images/bump.png);
+  background-image: url(../images/juice.png);
 }
 
 section#projects article#project-two:before {
   background-color: #8d82c4;
 }
+
+section#projects article#project-three,
+section#projects article#project-four {
+  margin-top: 2rem;
+}
+
+section#projects article#project-three {
+  background-image: url(../images/tatd.png);
+}
+
+section#projects article#project-three:before {
+  background-color: #f5cd79;
+}
+
+section#projects article#project-four {
+  background-image: url(../images/ingrezza.png);
+}
+
+section#projects article#project-four:before {
+  background-color: #cf6a87;
+}
+
+
 
 section#projects article h3 {
   font-weight: bolder;
