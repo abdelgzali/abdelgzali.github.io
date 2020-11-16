@@ -168,6 +168,11 @@ section.section1024 {
   left: 0;
 }
 
+.tile:hover header {
+  transition: opacity 0.5s;
+  opacity: 0.1;
+}
+
 @media screen and (max-width: 768px) {
   h2 {
     text-align: center;
